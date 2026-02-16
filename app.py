@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import requests
 
 app = Flask(__name__)
-API_KEY = "d9e23c8f480f4c2a871cfcdf231123123d228f9b0"
+API_KEY = "d9e23c8f480f4c2a871123123123cfcdf231123123d228f9b0"
 
 @app.route("/token/<mint>")
 def get_token(mint):
